@@ -64,6 +64,13 @@
 		1880F6A31C8FFB4E005B2456 /* LZServiceTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6A21C8FFB4E005B2456 /* LZServiceTableViewHeader.m */; };
 		1880F6A61C8FFD13005B2456 /* LZServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6A51C8FFD13005B2456 /* LZServiceTableViewCell.m */; };
 		1880F6A81C8FFDB3005B2456 /* LZServiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1880F6A71C8FFDB3005B2456 /* LZServiceTableViewCell.xib */; };
+		1880F6B51C90243F005B2456 /* LZHomeGridItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6B41C90243F005B2456 /* LZHomeGridItemModel.m */; };
+		1880F6B81C902653005B2456 /* LZHomeGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6B71C902653005B2456 /* LZHomeGridView.m */; };
+		1880F6BB1C902711005B2456 /* LZHomeGridViewListItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6BA1C902711005B2456 /* LZHomeGridViewListItemView.m */; };
+		1880F6BE1C90274D005B2456 /* LZHomeGridViewListItemViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6BD1C90274D005B2456 /* LZHomeGridViewListItemViewButton.m */; };
+		1880F6C11C902909005B2456 /* LZScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6C01C902909005B2456 /* LZScanViewController.m */; };
+		1880F6C41C902A05005B2456 /* LZAddItemGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6C31C902A05005B2456 /* LZAddItemGridView.m */; };
+		1880F6C71C902AE8005B2456 /* LZAddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6C61C902AE8005B2456 /* LZAddItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -181,6 +188,20 @@
 		1880F6A41C8FFD13005B2456 /* LZServiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZServiceTableViewCell.h; sourceTree = "<group>"; };
 		1880F6A51C8FFD13005B2456 /* LZServiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZServiceTableViewCell.m; sourceTree = "<group>"; };
 		1880F6A71C8FFDB3005B2456 /* LZServiceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZServiceTableViewCell.xib; sourceTree = "<group>"; };
+		1880F6B31C90243F005B2456 /* LZHomeGridItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHomeGridItemModel.h; sourceTree = "<group>"; };
+		1880F6B41C90243F005B2456 /* LZHomeGridItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHomeGridItemModel.m; sourceTree = "<group>"; };
+		1880F6B61C902653005B2456 /* LZHomeGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHomeGridView.h; sourceTree = "<group>"; };
+		1880F6B71C902653005B2456 /* LZHomeGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHomeGridView.m; sourceTree = "<group>"; };
+		1880F6B91C902711005B2456 /* LZHomeGridViewListItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHomeGridViewListItemView.h; sourceTree = "<group>"; };
+		1880F6BA1C902711005B2456 /* LZHomeGridViewListItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHomeGridViewListItemView.m; sourceTree = "<group>"; };
+		1880F6BC1C90274D005B2456 /* LZHomeGridViewListItemViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZHomeGridViewListItemViewButton.h; sourceTree = "<group>"; };
+		1880F6BD1C90274D005B2456 /* LZHomeGridViewListItemViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZHomeGridViewListItemViewButton.m; sourceTree = "<group>"; };
+		1880F6BF1C902909005B2456 /* LZScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZScanViewController.h; sourceTree = "<group>"; };
+		1880F6C01C902909005B2456 /* LZScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZScanViewController.m; sourceTree = "<group>"; };
+		1880F6C21C902A05005B2456 /* LZAddItemGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZAddItemGridView.h; sourceTree = "<group>"; };
+		1880F6C31C902A05005B2456 /* LZAddItemGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZAddItemGridView.m; sourceTree = "<group>"; };
+		1880F6C51C902AE8005B2456 /* LZAddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZAddItemViewController.h; sourceTree = "<group>"; };
+		1880F6C61C902AE8005B2456 /* LZAddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZAddItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,8 +398,9 @@
 		1867E25E1C8E99DA005804ED /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1867E2E31C8EB918005804ED /* LZHomeViewController.h */,
-				1867E2E41C8EB918005804ED /* LZHomeViewController.m */,
+				1880F6AC1C9023DB005B2456 /* AddItem */,
+				1880F6AB1C9023CC005B2456 /* Scan */,
+				1880F6A91C9023AA005B2456 /* Host */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -386,6 +408,7 @@
 		1867E25F1C8E99DA005804ED /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1880F6AD1C9023E2005B2456 /* Host */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -393,6 +416,9 @@
 		1867E2601C8E99DA005804ED /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1880F6B21C902416005B2456 /* AddItem */,
+				1880F6B11C902411005B2456 /* Scan */,
+				1880F6B01C90240A005B2456 /* Host */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -635,6 +661,71 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		1880F6A91C9023AA005B2456 /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				1867E2E31C8EB918005804ED /* LZHomeViewController.h */,
+				1867E2E41C8EB918005804ED /* LZHomeViewController.m */,
+			);
+			name = Host;
+			sourceTree = "<group>";
+		};
+		1880F6AB1C9023CC005B2456 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				1880F6BF1C902909005B2456 /* LZScanViewController.h */,
+				1880F6C01C902909005B2456 /* LZScanViewController.m */,
+			);
+			name = Scan;
+			sourceTree = "<group>";
+		};
+		1880F6AC1C9023DB005B2456 /* AddItem */ = {
+			isa = PBXGroup;
+			children = (
+				1880F6C51C902AE8005B2456 /* LZAddItemViewController.h */,
+				1880F6C61C902AE8005B2456 /* LZAddItemViewController.m */,
+			);
+			name = AddItem;
+			sourceTree = "<group>";
+		};
+		1880F6AD1C9023E2005B2456 /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				1880F6B31C90243F005B2456 /* LZHomeGridItemModel.h */,
+				1880F6B41C90243F005B2456 /* LZHomeGridItemModel.m */,
+			);
+			name = Host;
+			sourceTree = "<group>";
+		};
+		1880F6B01C90240A005B2456 /* Host */ = {
+			isa = PBXGroup;
+			children = (
+				1880F6B61C902653005B2456 /* LZHomeGridView.h */,
+				1880F6B71C902653005B2456 /* LZHomeGridView.m */,
+				1880F6B91C902711005B2456 /* LZHomeGridViewListItemView.h */,
+				1880F6BA1C902711005B2456 /* LZHomeGridViewListItemView.m */,
+				1880F6BC1C90274D005B2456 /* LZHomeGridViewListItemViewButton.h */,
+				1880F6BD1C90274D005B2456 /* LZHomeGridViewListItemViewButton.m */,
+			);
+			name = Host;
+			sourceTree = "<group>";
+		};
+		1880F6B11C902411005B2456 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Scan;
+			sourceTree = "<group>";
+		};
+		1880F6B21C902416005B2456 /* AddItem */ = {
+			isa = PBXGroup;
+			children = (
+				1880F6C21C902A05005B2456 /* LZAddItemGridView.h */,
+				1880F6C31C902A05005B2456 /* LZAddItemGridView.m */,
+			);
+			name = AddItem;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -711,6 +802,7 @@
 				1880F67E1C8FD1ED005B2456 /* LZBaseSettingViewController.m in Sources */,
 				1880F6801C8FD1ED005B2456 /* LZSettingViewController.m in Sources */,
 				1880F6671C8FC2B4005B2456 /* LZAssetsTableViewHeader.m in Sources */,
+				1880F6C41C902A05005B2456 /* LZAddItemGridView.m in Sources */,
 				1880F6841C8FD1ED005B2456 /* LZSwitchItem.m in Sources */,
 				1880F69A1C8FECF9005B2456 /* LZAssetsTableViewController.m in Sources */,
 				1867E2CB1C8EADE9005804ED /* UIImage+MultiFormat.m in Sources */,
@@ -721,9 +813,12 @@
 				1867E2C71C8EADE9005804ED /* SDWebImageManager.m in Sources */,
 				1867E2B91C8EADE9005804ED /* TAAbstractDotView.m in Sources */,
 				1867E27A1C8E9AC8005804ED /* UIView+LZExtension.m in Sources */,
+				1880F6BB1C902711005B2456 /* LZHomeGridViewListItemView.m in Sources */,
 				1867E2781C8E9AC8005804ED /* UIBarButtonItem+LZExtension.m in Sources */,
+				1880F6BE1C90274D005B2456 /* LZHomeGridViewListItemViewButton.m in Sources */,
 				1880F6541C8FB202005B2456 /* LZBasicNavigationController.m in Sources */,
 				1880F68B1C8FDA5B005B2456 /* LZDiscoverTableViewHeaderItemButton.m in Sources */,
+				1880F6B51C90243F005B2456 /* LZHomeGridItemModel.m in Sources */,
 				1867E2C51C8EADE9005804ED /* SDWebImageDownloader.m in Sources */,
 				1867E2BE1C8EADE9005804ED /* SDCycleScrollView.m in Sources */,
 				1880F6A31C8FFB4E005B2456 /* LZServiceTableViewHeader.m in Sources */,
@@ -733,8 +828,10 @@
 				1880F6641C8FC148005B2456 /* LZAssetsTableViewControllerCell.m in Sources */,
 				1867E2C01C8EADE9005804ED /* MKAnnotationView+WebCache.m in Sources */,
 				1880F6941C8FEC23005B2456 /* LZBasicTableViewController.m in Sources */,
+				1880F6C71C902AE8005B2456 /* LZAddItemViewController.m in Sources */,
 				1867E2BC1C8EADE9005804ED /* TAPageControl.m in Sources */,
 				1867E2C11C8EADE9005804ED /* NSData+ImageContentType.m in Sources */,
+				1880F6C11C902909005B2456 /* LZScanViewController.m in Sources */,
 				1867E2CA1C8EADE9005804ED /* UIImage+GIF.m in Sources */,
 				1867E2C91C8EADE9005804ED /* UIButton+WebCache.m in Sources */,
 				1867E2701C8E99DA005804ED /* main.m in Sources */,
@@ -748,6 +845,7 @@
 				1867E2C21C8EADE9005804ED /* SDImageCache.m in Sources */,
 				1867E2C31C8EADE9005804ED /* SDWebImageCompat.m in Sources */,
 				1867E26F1C8E99DA005804ED /* AppDelegate.m in Sources */,
+				1880F6B81C902653005B2456 /* LZHomeGridView.m in Sources */,
 				183C06551C8EBC1C0060292D /* LZServiceTableViewController.m in Sources */,
 				1867E2E51C8EB918005804ED /* LZHomeViewController.m in Sources */,
 				1880F6911C8FEBE1005B2456 /* LZBasicViewContoller.m in Sources */,
