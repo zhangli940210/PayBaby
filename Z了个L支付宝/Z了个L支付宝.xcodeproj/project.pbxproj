@@ -60,6 +60,10 @@
 		1880F6971C8FEC57005B2456 /* LZBasicTableViewControllerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6961C8FEC57005B2456 /* LZBasicTableViewControllerCell.m */; };
 		1880F69A1C8FECF9005B2456 /* LZAssetsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6991C8FECF9005B2456 /* LZAssetsTableViewController.m */; };
 		1880F69D1C8FF406005B2456 /* LZDiscoverTableViewControllerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F69C1C8FF406005B2456 /* LZDiscoverTableViewControllerCell.m */; };
+		1880F6A01C8FFAF6005B2456 /* LZServiceTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F69F1C8FFAF6005B2456 /* LZServiceTableViewCellModel.m */; };
+		1880F6A31C8FFB4E005B2456 /* LZServiceTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6A21C8FFB4E005B2456 /* LZServiceTableViewHeader.m */; };
+		1880F6A61C8FFD13005B2456 /* LZServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880F6A51C8FFD13005B2456 /* LZServiceTableViewCell.m */; };
+		1880F6A81C8FFDB3005B2456 /* LZServiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1880F6A71C8FFDB3005B2456 /* LZServiceTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -170,6 +174,13 @@
 		1880F6991C8FECF9005B2456 /* LZAssetsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZAssetsTableViewController.m; sourceTree = "<group>"; };
 		1880F69B1C8FF406005B2456 /* LZDiscoverTableViewControllerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZDiscoverTableViewControllerCell.h; sourceTree = "<group>"; };
 		1880F69C1C8FF406005B2456 /* LZDiscoverTableViewControllerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZDiscoverTableViewControllerCell.m; sourceTree = "<group>"; };
+		1880F69E1C8FFAF6005B2456 /* LZServiceTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZServiceTableViewCellModel.h; sourceTree = "<group>"; };
+		1880F69F1C8FFAF6005B2456 /* LZServiceTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZServiceTableViewCellModel.m; sourceTree = "<group>"; };
+		1880F6A11C8FFB4E005B2456 /* LZServiceTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZServiceTableViewHeader.h; sourceTree = "<group>"; };
+		1880F6A21C8FFB4E005B2456 /* LZServiceTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZServiceTableViewHeader.m; sourceTree = "<group>"; };
+		1880F6A41C8FFD13005B2456 /* LZServiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZServiceTableViewCell.h; sourceTree = "<group>"; };
+		1880F6A51C8FFD13005B2456 /* LZServiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZServiceTableViewCell.m; sourceTree = "<group>"; };
+		1880F6A71C8FFDB3005B2456 /* LZServiceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LZServiceTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +217,8 @@
 		183C06511C8EBBB20060292D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1880F69E1C8FFAF6005B2456 /* LZServiceTableViewCellModel.h */,
+				1880F69F1C8FFAF6005B2456 /* LZServiceTableViewCellModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -213,6 +226,11 @@
 		183C06521C8EBBB20060292D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1880F6A11C8FFB4E005B2456 /* LZServiceTableViewHeader.h */,
+				1880F6A21C8FFB4E005B2456 /* LZServiceTableViewHeader.m */,
+				1880F6A41C8FFD13005B2456 /* LZServiceTableViewCell.h */,
+				1880F6A51C8FFD13005B2456 /* LZServiceTableViewCell.m */,
+				1880F6A71C8FFDB3005B2456 /* LZServiceTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -677,6 +695,7 @@
 			files = (
 				1867E1B31C8E52CC005804ED /* Assets.xcassets in Resources */,
 				1880F6691C8FC2C1005B2456 /* LZAssetsTableViewHeader.xib in Resources */,
+				1880F6A81C8FFDB3005B2456 /* LZServiceTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,6 +726,7 @@
 				1880F68B1C8FDA5B005B2456 /* LZDiscoverTableViewHeaderItemButton.m in Sources */,
 				1867E2C51C8EADE9005804ED /* SDWebImageDownloader.m in Sources */,
 				1867E2BE1C8EADE9005804ED /* SDCycleScrollView.m in Sources */,
+				1880F6A31C8FFB4E005B2456 /* LZServiceTableViewHeader.m in Sources */,
 				1867E2791C8E9AC8005804ED /* UIImage+image.m in Sources */,
 				1867E2871C8EAD17005804ED /* LZTabBarController.m in Sources */,
 				1867E2BF1C8EADE9005804ED /* UIView+SDExtension.m in Sources */,
@@ -731,6 +751,7 @@
 				183C06551C8EBC1C0060292D /* LZServiceTableViewController.m in Sources */,
 				1867E2E51C8EB918005804ED /* LZHomeViewController.m in Sources */,
 				1880F6911C8FEBE1005B2456 /* LZBasicViewContoller.m in Sources */,
+				1880F6A61C8FFD13005B2456 /* LZServiceTableViewCell.m in Sources */,
 				1867E2BA1C8EADE9005804ED /* TAAnimatedDotView.m in Sources */,
 				1880F6971C8FEC57005B2456 /* LZBasicTableViewControllerCell.m in Sources */,
 				1867E2C61C8EADE9005804ED /* SDWebImageDownloaderOperation.m in Sources */,
@@ -738,6 +759,7 @@
 				1880F6831C8FD1ED005B2456 /* LZSettingRowItem.m in Sources */,
 				1880F6851C8FD1ED005B2456 /* LZSettingCell.m in Sources */,
 				1867E2BD1C8EADE9005804ED /* SDCollectionViewCell.m in Sources */,
+				1880F6A01C8FFAF6005B2456 /* LZServiceTableViewCellModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
